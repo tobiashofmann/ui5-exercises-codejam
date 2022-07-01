@@ -47,11 +47,11 @@ Models are another major part of UI5 development. We use models to store data in
 
 We defined a new model with an empty string as its name, which makes it the default model of the app. The `dataSource` for the model is `capBooks`, which is a new data `dataSource` we created that links to our backend application that is being served on the same domain as our UI5 app (see [chapter 1 - step 7](/chapters/chapter01#7-run-our-app)). We can inspect the data at [http://localhost:4004/browse/Books?$expand=genre](http://localhost:4004/browse/Books?$expand=genre).
 
-### 2. Add a new `<Table />` to our `app/webapp/view/App.view.xml` that consumes the model
+### 2. Add a new `UI5 table control` to our `app/webapp/view/App.view.xml` that consumes the model
 
 We can now go ahead an consume the newly created model in our `app/webapp/view/App.view.xml`.
 
-➡️ Paste the following code into the `<content />` section of the `<Panel />` in our existing view:
+➡️ Paste the following code into the `<content> </content>` section of the `Panel control` in our existing view:
 
 ```xml
 <Table 
