@@ -11,7 +11,7 @@ At the end of this chapter we will have added a new feature to our bookshop that
 
 ### 1. Add a new `<SearchField />` to our `app/webapp/view/App.view.xml`
 
-➡️ Add the following code to the `app/webapp/view/App.view.xml` just above the `<Table />` and add the new `id` to the `<Table />`:
+➡️ Add the following code to the `app/webapp/view/App.view.xml` just above the `<Table />` and add the new `id='booksTable'` to the `<Table />`:
 
 ```xml
 <SearchField liveChange=".onSearch"/>
